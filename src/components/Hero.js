@@ -68,7 +68,7 @@ const Hero = () => {
             bgGradient="linear(to-r, orange.500, orange.300)"
             bgClip="text"
           >
-            Now live on Ceramic Clay testnet!
+            Now live on Ceramic Clay Testnet!
           </chakra.span>{" "}
            🤩 🎉
         </chakra.p>

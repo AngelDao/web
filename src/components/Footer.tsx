@@ -1,14 +1,14 @@
 import { Flex, Text, Link } from '@chakra-ui/react'
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai'
-
+import AngelDAO from '../images/AngelDAO.gif'
 const Footer = () => {
   return (
     <Flex
       borderTopWidth={1}
       px={2}
       py={2}
-      alignItems="center"
+      alignItems="start"
       justifyContent="space-between"
     >
       <Text mr={6} fontSize="sm">
@@ -22,10 +22,13 @@ const Footer = () => {
         ,{' '}
         <Link textDecoration="underline" href="https://github.com/isidorosp">
           isidorosp
-        </Link>{' '}&{' '}
+        </Link>,{' '}
         <Link textDecoration="underline" href="https://github.com/emersonmacro">
           emersonmacro
-        </Link>{' '}
+        </Link>{' '}&{' '}
+        <Link textDecoration="underline" href="https://twitter.com/AngelDAOorg">
+          <img src={AngelDAO} style={{width:200}}/>
+        </Link>
         in support of{' '}
         <Link
           href="https://ceramic.network"
@@ -37,7 +40,7 @@ const Footer = () => {
           Ceramic
         </Link>
       </Text>
-      <Flex alignItems="center">
+      <Flex alignItems="top">
         <Link href="https://github.com/oaksprout/tiles">
           <AiFillGithub size="24" />
         </Link>
