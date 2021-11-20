@@ -41,7 +41,7 @@ const Header: React.FC<HeaderProps> = ({ schema, setLens, docId }) => {
         <Center h="100%">
           <Divider orientation="vertical" mx={{ base: 0, lg: 3 }} />
         </Center>
-        <Badge colorScheme="orange" display={{base: 'none', lg: 'inherit'}}>Mainnet</Badge>
+        <Badge colorScheme="orange" display={{base: 'none', lg: 'inherit'}}>Clay Testnet</Badge>
         {/* <Box mx="left">
           <LensSection schema={schema} setLens={setLens} />
         </Box> */}
